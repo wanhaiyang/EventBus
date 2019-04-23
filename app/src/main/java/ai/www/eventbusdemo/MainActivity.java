@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
 
       //你好
+      //你好
 
         EventBus.getDefault().unregister(this);
     }
